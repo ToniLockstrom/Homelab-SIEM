@@ -13,15 +13,18 @@ The lab environment can be provisioned with a single command, ensuring consisten
 
 # Configuration & Troubleshooting
 
-    Network Persistence: Configured a private network stack to allow secure communication between the Manager and Agents on ports 1514/1515.
+    Network Persistence: Configured a private network stack to allow secure communication 
+    between the Manager and Agents on ports 1514/1515.
 
-    Feed Integration: Resolved initial synchronization issues by mapping NVD and AlmaLinux providers correctly within the ossec.conf, enabling accurate scanning for RHEL-based distributions.
+    Feed Integration: Resolved initial synchronization issues by mapping NVD and AlmaLinux 
+    providers correctly within the ossec.conf, enabling accurate scanning for RHEL-based distributions.
     
-    Agent Deployment: Automated the agent registration process to ensure the "Target" server was immediately visible in the Wazuh Dashboard upon boot.
+    Agent Deployment: Automated the agent registration process to ensure the "Target" 
+    server was immediately visible in the Wazuh Dashboard upon boot.
 
 # Key Takeaways
     Hands-on experience with Log Analysis and distinguishing between "noise" and actual security incidents.
 
     Understanding of the Vulnerability Lifecycle, from discovery via CVE databases to remediation.
-
+    
     Practice in Linux administration and troubleshooting agent-to-manager communication.
